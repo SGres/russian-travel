@@ -1,0 +1,8 @@
+.place{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.place:not(:first-child) {
+  margin-top: 80px;
+}
