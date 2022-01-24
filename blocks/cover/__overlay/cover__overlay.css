@@ -2,12 +2,11 @@
   position: absolute;
   width: 1184px;
   height: 740px;
-  background-color: #2A2C2F;
-  opacity: 0.3;
+  background-color: hsla(216, 6%, 17%, 0.3);
   z-index: -1;
 }
 
 .cover__overlay:hover {
-  opacity: 0.8;
-  transition: opacity 1s;
+  background-color: hsla(216, 6%, 17%, 0.8);
+  transition: background-color 1s;
 }
