@@ -5,3 +5,16 @@
   max-width: 456px;
   margin: 0;
 }
+
+@media screen and (max-width: 955px) {
+  .place__website {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width:724px) {
+  .place__website {
+    max-width: 288px;
+    margin: 32px auto 0;
+  }
+}

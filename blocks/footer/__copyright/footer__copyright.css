@@ -7,3 +7,18 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media screen and (max-width:768px) {
+    .footer__copyright {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 48px;
+    }
+}

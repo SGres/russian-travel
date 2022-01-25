@@ -7,3 +7,26 @@
   color: #FFFFFF;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  .place__title {
+    width: 340px;
+    font-size: 42px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width:724px) {
+  .place__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto;
+  }
+}

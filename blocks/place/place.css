@@ -1,8 +1,21 @@
-.place{
+.place {
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .place:not(:first-child) {
   margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .place:not(:first-child) {
+    margin-top: 73px;
+  }
+}
+
+@media screen and (max-width:724px) {
+  .place:not(:first-child) {
+    margin-top: 50px;
+  }
 }

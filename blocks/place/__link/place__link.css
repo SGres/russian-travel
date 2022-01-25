@@ -1,5 +1,5 @@
 .place__link {
-  width: 456px;
+  max-width: 456px;
   font-family: 'Inter';
   font-weight: normal;
   font-size: 18px;
@@ -9,7 +9,25 @@
   margin: 12px 0 0 40px;
 }
 
-.place__link:hover {
-  opacity: 0.8;
-  transition: opacity 1s;
+@media screen and (min-width: 768px) {
+  .place__link:hover {
+    opacity: 0.8;
+    transition: opacity 1s;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__link {
+    margin: 12px 0 0 32px;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  .place__link {
+    margin: 12px 0 0 28px;
+  }
+}
+
+@media screen and (max-width:724px) {
+  .place__link {   margin: 12px 0 0 0;}
 }
