@@ -8,7 +8,6 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  border: solid orange 2px;
 }
 
 @media screen and (max-width: 1024px) {
