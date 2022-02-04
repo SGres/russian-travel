@@ -6,17 +6,9 @@
   list-style-type: none;
 }
 
-@media screen and (max-width:768px) {
-  .footer__links {
-    gap: 15px;
-  }
-}
-
 @media screen and (max-width:510px) {
   .footer__links {
-    display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    list-style-type: none;
   }
 }
