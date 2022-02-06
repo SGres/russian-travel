@@ -10,14 +10,14 @@
   }
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 768px) {
   .place__paragraphs {
     max-width: 352px;
     margin: 48px 0 0 28px;
   }
 }
 
-@media screen and (max-width:724px) {
+@media screen and (max-width:620px) {
   .place__paragraphs {
     max-width: 288px;
     margin: 32px auto 0;

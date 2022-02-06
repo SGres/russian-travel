@@ -15,13 +15,13 @@
   }
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 768px) {
   .place__url-heading {
     margin: 0 0 0 28px;
   }
 }
 
-@media screen and (max-width:724px) {
+@media screen and (max-width:620px) {
   .place__url-heading {
     margin: 0;
   }

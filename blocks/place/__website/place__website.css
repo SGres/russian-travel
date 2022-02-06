@@ -6,21 +6,15 @@
   margin: 0;
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 768px) {
   .place__website {
     max-width: 352px;
   }
 }
 
-@media screen and (max-width:724px) {
+@media screen and (max-width:620px) {
   .place__website {
     max-width: 288px;
-    margin: 32px auto 0;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .place__website {
-    margin: 32px 0 0 16px;
+    margin: 32px 5% 0;
   }
 }
